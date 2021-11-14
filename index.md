@@ -13,6 +13,6 @@ Check on Microsoft Learn latest trophies and badges to see current learning path
 ## Notes
 ### Part 1: [Manage Identity and Access](AZ500new-notes1.pdf)
 
-I'm already in the middle of part 2 when creating this page. So, here's the pdf file for the notes with some phrases highlighted, screenshots, and knowledge checks.
+I'm already in the middle of part 2 when creating this page. So, here's the pdf file: [AZ500new-notes1.pdf](AZ500new-notes1.pdf) for the notes with some phrases highlighted, screenshots, and knowledge checks.
 
 
