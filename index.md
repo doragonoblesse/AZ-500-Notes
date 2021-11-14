@@ -11,7 +11,7 @@ Check on Microsoft Learn latest trophies and badges to see current learning path
 [https://docs.microsoft.com/en-us/users/lucilyntangian-1724/](https://docs.microsoft.com/en-us/users/lucilyntangian-1724/)
 
 ## Notes
-### Part 1: [Manage Identity and Access](AZ500new-notes1.pdf)
+### Part 1: [Manage Identity and Access](https://docs.microsoft.com/en-us/learn/paths/manage-identity-access/)
 
 I'm already in the middle of part 2 when creating this page. So, here's the pdf file: [AZ500new-notes1.pdf](AZ500new-notes1.pdf) for the notes with some phrases highlighted, screenshots, and knowledge checks.
 
