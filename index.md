@@ -22,7 +22,7 @@ This topic discusses perimeter, network, host, and container security. I just gr
 First 2 modules: [AZ500new-notes2.pdf](AZ500new-notes2.pdf)
 
 ```markdown
-Task 1 - Network security groups...(shortcut)
+Task 1 - Network security groups...(skip to this part)
 Configure an inbound rule to allow public access on port 80
 
 1. Return to the Portal and the Networking blade.
