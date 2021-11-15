@@ -3,6 +3,8 @@
 ## Useful Links
 [Microsoft Certified: Azure Security Engineer Associate](https://docs.microsoft.com/en-us/learn/certifications/azure-security-engineer/)
 
+Microsoft Learn Study Labs: [https://microsoftlearning.github.io/AZ500-AzureSecurityTechnologies/](https://microsoftlearning.github.io/AZ500-AzureSecurityTechnologies/)
+
 ESI Study Guide: [https://aka.ms/ESIStudyGuide_AZ-500](https://aka.ms/ESIStudyGuide_AZ-500)
 
 ### Other Links
@@ -22,7 +24,7 @@ This topic discusses perimeter, network, host, and container security. I just gr
 First 2 modules: [AZ500new-notes2.pdf](AZ500new-notes2.pdf)
 
 ```markdown
-Task 1 - Network security groups...(skip to this part)
+Task 1 - Network security groups...(skipped to this part)
 Configure an inbound rule to allow public access on port 80
 
 1. Return to the Portal and the Networking blade.
