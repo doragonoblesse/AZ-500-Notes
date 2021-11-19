@@ -22,10 +22,10 @@ I'm already in the middle of part 2 when creating this page. So, here's the pdf 
 
 This topic discusses perimeter, network, host, and container security. I just grabbed a jpeg to review on the OSI model. Here's a jpeg file I got from [https://www.networkcorner.co.uk/wp-content/uploads/2020/02/OSI_Model.jpeg](https://doragonoblesse.github.io/AZ-500-Notes/OSI_Model.jpeg)
 
-- #### [Implement perimeter security](https://docs.microsoft.com/en-us/learn/modules/perimeter-security/) & [Configure network security](https://docs.microsoft.com/en-us/learn/modules/network-security/)
+#### [Implement perimeter security](https://docs.microsoft.com/en-us/learn/modules/perimeter-security/) & [Configure network security](https://docs.microsoft.com/en-us/learn/modules/network-security/)
 	First 2 modules: [AZ500new-notes2.pdf](AZ500new-notes2.pdf)
 
-- #### On doing the lab...
+#### On doing the lab...
 
   [Lab 07: Network Security Groups and Application Security Groups
   Student lab manual](https://microsoftlearning.github.io/AZ500-AzureSecurityTechnologies/Instructions/Labs/LAB_07_NSGs.html#exercise-2-deploy-virtual-machines-and-test-network-filters)
@@ -42,14 +42,14 @@ This topic discusses perimeter, network, host, and container security. I just gr
 
   Once finished, proceed to the next steps.
 
-- #### Clean up resources
+#### Clean up resources
 
   Run this powershell command in the cloud shell to clean up resources.
 
   ```markdown
   Remove-AzResourceGroup -Name "`resource-group-name`" -Force -AsJob
   ```
-- #### [Configure and manage host security](https://docs.microsoft.com/en-us/learn/modules/host-security/)
+#### [Configure and manage host security](https://docs.microsoft.com/en-us/learn/modules/host-security/)
 
   **Enable endpoint protection** -
   1. install antimalware; 
@@ -90,6 +90,18 @@ This topic discusses perimeter, network, host, and container security. I just gr
   Administrative "Jump Box" architectures set up a small number administrative console servers and restrict personnel to using them for administrative tasks. This is typically based on remote desktop services, a 3rd-party presentation virtualization solution, or a Virtual Desktop Infrastructure (VDI) technology.
 
   This approach is frequently proposed to mitigate risk to administration and does provide some security assurances, but the jump box approach by itself is vulnerable to certain attacks because it violates the clean source principle. The clean source principle requires all security dependencies to be as trustworthy as the object being secured.
+  
+#### Creating Virtual Machine Templates
+  
+  **Resource Manager** -
+  
+  Here are some additional terms to know when using Resource Manager:
+
+  - Resource provider. A service that supplies Azure resources. For example, a common resource provider is Microsoft.Compute, which supplies the VM resource. Microsoft.Storage is another common resource provider.
+
+  - Resource Manager template. A JSON file that defines one or more resources to deploy to a resource group or subscription. You can use the template to consistently and repeatedly deploy the resources.
+
+  - Declarative syntax. Syntax that lets you state, "Here’s what I intend to create" without having to write the sequence of programming commands to create it. The Resource Manager template is an example of declarative syntax. In the file, you define the properties for the infrastructure to deploy to Azure.
   
 
 
