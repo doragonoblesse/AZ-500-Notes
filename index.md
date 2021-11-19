@@ -45,7 +45,7 @@ Once finished, proceed to the next steps.
 Run this powershell command in the cloud shell to clean up resources.
 
 ```markdown
-Remove-AzResourceGroup -Name "<resource group>" -Force -AsJob
+Remove-AzResourceGroup -Name "`resource-group-name`" -Force -AsJob
 ```
 
 
