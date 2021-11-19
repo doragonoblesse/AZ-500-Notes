@@ -71,11 +71,11 @@ This topic discusses perimeter, network, host, and container security. I just gr
    
   **Levels of device security** -
    
-     <img src="https://github.com/doragonoblesse/AZ-500-Notes/blob/gh-pages/levels%20of%20device%20security.jpg" width="50%" height="50%">
+   <img src="https://github.com/doragonoblesse/AZ-500-Notes/blob/gh-pages/levels%20of%20device%20security.jpg" width="50%" height="50%">
    
   **Device security controls** -
    
-    <img src="https://github.com/doragonoblesse/AZ-500-Notes/blob/gh-pages/Device%20security%20controls.jpg" width="50%" height="50%">
+   <img src="https://github.com/doragonoblesse/AZ-500-Notes/blob/gh-pages/Device%20security%20controls.jpg" width="50%" height="50%">
    
   **Privileged Access Workstations** - 
    
