@@ -49,7 +49,29 @@ This topic discusses perimeter, network, host, and container security. I just gr
   ```markdown
   Remove-AzResourceGroup -Name "`resource-group-name`" -Force -AsJob
   ```
+- #### [Configure and manage host security](https://docs.microsoft.com/en-us/learn/modules/host-security/)
 
+  Enable endpoint protection: 
+  1. install antimalware; 
+  2. integrate your antimalware solution with Azure Security Center to monitor the status of the antimalware protection.
+
+  Define a privileged access device strategy includes:
+  1. Hardware root-of-trust
+    - Trusted Platform Module (TPM) 2.0
+    - BitLocker Drive Encryption
+    - UEFI Secure Boot
+    - Drivers and Firmware Distributed through Windows Update
+    - Virtualization and HVCI Enabled
+    - Drivers and Apps HVCI-Ready
+    - Windows Hello
+    - DMA I/O Protection
+    - System Guard
+    - Modern Standby
+   
+   2. Levels of device security - 
+      ![levels of device security](levels of device security.png)
+  
+  
 
 
 
