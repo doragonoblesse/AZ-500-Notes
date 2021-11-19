@@ -80,13 +80,13 @@ First 2 modules: [AZ500new-notes2.pdf](AZ500new-notes2.pdf)
     
    - Modern Standby
    
-  **Levels of device security** - [see image](https://github.com/doragonoblesse/AZ-500-Notes/blob/c7196bbe05c2733a2f36e86b59130557aea1bf87/levels%20of%20device%20security.jpg)
+  **Levels of device security** - [see image](https://doragonoblesse.github.io/AZ-500-Notes/levels%20of%20device%20security.jpg)
   
-  <img src="https://github.com/doragonoblesse/AZ-500-Notes/blob/c7196bbe05c2733a2f36e86b59130557aea1bf87/levels%20of%20device%20security.jpg" width="50%" height="50%">
+  <img src="https://doragonoblesse.github.io/AZ-500-Notes/levels%20of%20device%20security.jpg" width="50%" height="50%">
    
-  **Device security controls** - [see image](https://github.com/doragonoblesse/AZ-500-Notes/blob/c7196bbe05c2733a2f36e86b59130557aea1bf87/Device%20security%20controls.jpg)
+  **Device security controls** - [see image](https://doragonoblesse.github.io/AZ-500-Notes/Device security controls.jpg)
   
-  <img src="https://github.com/doragonoblesse/AZ-500-Notes/blob/c7196bbe05c2733a2f36e86b59130557aea1bf87/Device%20security%20controls.jpg" width="50%" height="50%">
+  <img src="https://doragonoblesse.github.io/AZ-500-Notes/Device security controls.jpg" width="50%" height="50%">
    
   **Privileged Access Workstations** -
    
