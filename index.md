@@ -23,26 +23,31 @@ This topic discusses perimeter, network, host, and container security. I just gr
 
 First 2 modules: [AZ500new-notes2.pdf](AZ500new-notes2.pdf)
 
+#### On doing the lab...
+
+[Lab 07: Network Security Groups and Application Security Groups
+Student lab manual](https://microsoftlearning.github.io/AZ500-AzureSecurityTechnologies/Instructions/Labs/LAB_07_NSGs.html#exercise-2-deploy-virtual-machines-and-test-network-filters)
+
+Just follow the steps as instructed, they're pretty easily to follow. 
+
+Take note that there's no need to remote login to the myVMWeb virtual machine to enable IIS.
+Step 5. On the myVMWeb blade, in the Operations section, click Run command and then click RunPowerShellScript. 6. On the Run Command Script pane, run the following to install the Web server role on myVmWeb:
+
 ```markdown
-Task 1 - Network security groups...(skipped to this part)
-Configure an inbound rule to allow public access on port 80
-
-1. Return to the Portal and the Networking blade.
-2. Make a note of the virtual machines private IP address.
-3. On the Inbound port rules tab, click Add inbound port rule. 
-This rule will only allow certain IP address on port 80. 
-As you go through the configuration settings be sure to discuss each one.
-- Source: Service Tag
-- Source service tag: Internet
-- Destination: IP addresses
-- Destination IP addresses/CIDR range: private_IP_address/32
-- Destination port range: 80
-- Protocol: TCP
-- Action: Allow
-- Name: Allow_Port_80
-- Click Add
-
-To test: http://public_IP_address/default.htm
+Install-WindowsFeature -name Web-Server -IncludeManagementTools
 ```
+It takes a while for it to finish.
+
+Once finished, proceed to the next steps.
+
+#### Clean up resources
+
+Run this powershell command in the cloud shell to clean up resources.
+
+```markdown
+Remove-AzResourceGroup -Name "AZ500LAB07" -Force -AsJob
+```
+
+
 
 
