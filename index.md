@@ -14,9 +14,19 @@
   [https://docs.microsoft.com/en-us/users/lucilyntangian-1724/](https://docs.microsoft.com/en-us/users/lucilyntangian-1724/)
 
 ## Notes
+
+<details><summary>Part 1: Manage Identity and Access</summary>
+<p> 
+
 ### Part 1: [Manage Identity and Access](https://docs.microsoft.com/en-us/learn/paths/manage-identity-access/)
 
 I'm already in the middle of part 2 when creating this page. So, here's the pdf file: [AZ500new-notes1.pdf](AZ500new-notes1.pdf) for the notes with some phrases highlighted, screenshots, and knowledge checks.
+
+</p>
+</details>
+
+<details><summary>Part 2: Implement platform protection</summary>
+<p> 
 
 ### Part 2: [Implement platform protection](https://docs.microsoft.com/en-us/learn/paths/implement-platform-protection/)
 
@@ -121,6 +131,9 @@ First 2 modules: [AZ500new-notes2.pdf](AZ500new-notes2.pdf)
 **Connect to a Windows VM** - by using Remote Desktop Protocol (RDP); If you are using PowerShell and have the Azure PowerShell module installed you may also connect using the `Get-AzRemoteDesktopFile` cmdlet.
 
 **Connect to a Linux-based VM** - To connect the Linux-based VM, you need a secure shell protocol (SSH) client. The most used free tool is PuTTY SHH terminal. The following shows the PuTTY configuration dialog.
+  
+</p>
+</details>
   
 
 
