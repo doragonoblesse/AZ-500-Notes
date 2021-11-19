@@ -9,6 +9,7 @@
 - ESI Study Guide: [https://aka.ms/ESIStudyGuide_AZ-500](https://aka.ms/ESIStudyGuide_AZ-500)
 
 ### Other Links
+
 - Check on Microsoft Learn latest trophies and badges to see current learning path.
 
   [https://docs.microsoft.com/en-us/users/lucilyntangian-1724/](https://docs.microsoft.com/en-us/users/lucilyntangian-1724/)
