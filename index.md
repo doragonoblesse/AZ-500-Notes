@@ -23,7 +23,8 @@ I'm already in the middle of part 2 when creating this page. So, here's the pdf 
 This topic discusses perimeter, network, host, and container security. I just grabbed a jpeg to review on the OSI model. Here's a jpeg file I got from [https://www.networkcorner.co.uk/wp-content/uploads/2020/02/OSI_Model.jpeg](https://doragonoblesse.github.io/AZ-500-Notes/OSI_Model.jpeg)
 
 #### [Implement perimeter security](https://docs.microsoft.com/en-us/learn/modules/perimeter-security/) & [Configure network security](https://docs.microsoft.com/en-us/learn/modules/network-security/)
-	First 2 modules: [AZ500new-notes2.pdf](AZ500new-notes2.pdf)
+	
+First 2 modules: [AZ500new-notes2.pdf](AZ500new-notes2.pdf)
 
 #### On doing the lab...
 
@@ -79,9 +80,13 @@ This topic discusses perimeter, network, host, and container security. I just gr
     
    - Modern Standby
    
-  **Levels of device security** - [see image](https://github.com/doragonoblesse/AZ-500-Notes/blob/gh-pages/levels%20of%20device%20security.jpg)
+  **Levels of device security** - [see image](https://github.com/doragonoblesse/AZ-500-Notes/blob/c7196bbe05c2733a2f36e86b59130557aea1bf87/levels%20of%20device%20security.jpg)
+  
+  <img src="https://github.com/doragonoblesse/AZ-500-Notes/blob/c7196bbe05c2733a2f36e86b59130557aea1bf87/levels%20of%20device%20security.jpg" width="50%" height="50%">
    
-  **Device security controls** - [see image](https://github.com/doragonoblesse/AZ-500-Notes/blob/gh-pages/Device%20security%20controls.jpg)
+  **Device security controls** - [see image](https://github.com/doragonoblesse/AZ-500-Notes/blob/c7196bbe05c2733a2f36e86b59130557aea1bf87/Device%20security%20controls.jpg)
+  
+  <img src="https://github.com/doragonoblesse/AZ-500-Notes/blob/c7196bbe05c2733a2f36e86b59130557aea1bf87/Device%20security%20controls.jpg" width="50%" height="50%">
    
   **Privileged Access Workstations** -
    
