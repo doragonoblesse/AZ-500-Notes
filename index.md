@@ -56,7 +56,7 @@ This topic discusses perimeter, network, host, and container security. I just gr
   2. integrate your antimalware solution with Azure Security Center to monitor the status of the antimalware protection.
 
   Define a privileged access device strategy includes:
-  1. Hardware root-of-trust
+  Hardware root-of-trust
     - Trusted Platform Module TPM 2.0
     - BitLocker Drive Encryption
     - UEFI Secure Boot
@@ -68,7 +68,9 @@ This topic discusses perimeter, network, host, and container security. I just gr
     - System Guard
     - Modern Standby
    
-   2. [Levels of device security](levels of device security.jpg)
+   Levels of device security
+   
+    <img src="https://github.com/doragonoblesse/AZ-500-Notes/blob/gh-pages/levels%20of%20device%20security.jpg" width="50%" height="50%">
   
   
 
