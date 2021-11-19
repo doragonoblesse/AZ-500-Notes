@@ -58,26 +58,36 @@ This topic discusses perimeter, network, host, and container security. I just gr
   **Define a privileged access device strategy includes** -
   
   Hardware root-of-trust
-    - Trusted Platform Module TPM 2.0
-    - BitLocker Drive Encryption
-    - UEFI Secure Boot
-    - Drivers and Firmware Distributed through Windows Update
-    - Virtualization and HVCI Enabled
-    - Drivers and Apps HVCI-Ready
-    - Windows Hello
-    - DMA I/O Protection
-    - System Guard
-    - Modern Standby
+  
+   - Trusted Platform Module TPM 2.0
+  
+   - BitLocker Drive Encryption
+    
+   - UEFI Secure Boot
+    
+   - Drivers and Firmware Distributed through Windows Update
+    
+   - Virtualization and HVCI Enabled
+    
+   - Drivers and Apps HVCI-Ready
+    
+   - Windows Hello
+    
+   - DMA I/O Protection
+    
+   - System Guard
+    
+   - Modern Standby
    
-  **Levels of device security** -
+  **Levels of device security** - [see image](https://github.com/doragonoblesse/AZ-500-Notes/blob/gh-pages/levels%20of%20device%20security.jpg)
    
    <img src="https://github.com/doragonoblesse/AZ-500-Notes/blob/gh-pages/levels%20of%20device%20security.jpg" width="50%" height="50%">
    
-  **Device security controls** -
+  **Device security controls** - [see image](https://github.com/doragonoblesse/AZ-500-Notes/blob/gh-pages/Device%20security%20controls.jpg)
    
    <img src="https://github.com/doragonoblesse/AZ-500-Notes/blob/gh-pages/Device%20security%20controls.jpg" width="50%" height="50%">
    
-  **Privileged Access Workstations** - 
+  **Privileged Access Workstations** -
    
   (PAW) is a hardened and locked down workstation designed to provide high security assurances for sensitive accounts and tasks. PAWs are recommended for administration of identity systems, cloud services, and private cloud fabric as well as sensitive business functions.
    
@@ -102,6 +112,14 @@ This topic discusses perimeter, network, host, and container security. I just gr
   - Resource Manager template. A JSON file that defines one or more resources to deploy to a resource group or subscription. You can use the template to consistently and repeatedly deploy the resources.
 
   - Declarative syntax. Syntax that lets you state, "Here’s what I intend to create" without having to write the sequence of programming commands to create it. The Resource Manager template is an example of declarative syntax. In the file, you define the properties for the infrastructure to deploy to Azure.
+
+  !Important: When you deploy a template, Resource Manager converts the template into REST API operations.
+
+#### Enable and secure remote access management
+
+**Connect to a Windows VM** - by using Remote Desktop Protocol (RDP); If you are using PowerShell and have the Azure PowerShell module installed you may also connect using the `Get-AzRemoteDesktopFile` cmdlet.
+
+**Connect to a Linux-based VM** - To connect the Linux-based VM, you need a secure shell protocol (SSH) client. The most used free tool is PuTTY SHH terminal. The following shows the PuTTY configuration dialog.
   
 
 
