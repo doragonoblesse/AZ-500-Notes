@@ -57,7 +57,7 @@ This topic discusses perimeter, network, host, and container security. I just gr
 
   Define a privileged access device strategy includes:
   1. Hardware root-of-trust
-    - Trusted Platform Module (TPM) 2.0
+    - Trusted Platform Module TPM 2.0
     - BitLocker Drive Encryption
     - UEFI Secure Boot
     - Drivers and Firmware Distributed through Windows Update
@@ -68,8 +68,7 @@ This topic discusses perimeter, network, host, and container security. I just gr
     - System Guard
     - Modern Standby
    
-   2. Levels of device security - 
-      ![levels of device security](levels of device security.png)
+   2. [Levels of device security](levels of device security.jpg)
   
   
 
