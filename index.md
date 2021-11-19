@@ -36,22 +36,18 @@ First 2 modules: [AZ500new-notes2.pdf](AZ500new-notes2.pdf)
   Just follow the steps as instructed, they're pretty easily to follow. 
 
   Take note that there's no need to remote login to the myVMWeb virtual machine to enable IIS.
-  Step 5. On the myVMWeb blade, in the Operations section, click Run command and then click RunPowerShellScript. 6. On the Run Command Script pane, run the following to install the Web server role on myVmWeb:
-
-  ```markdown
-  Install-WindowsFeature -name Web-Server -IncludeManagementTools
-  ```
+  Step 5. On the myVMWeb blade, in the Operations section, click Run command and then click RunPowerShellScript. 6. On the Run Command Script pane, run the following to install the Web server role on myVmWeb: `Install-WindowsFeature -name Web-Server -IncludeManagementTools`
+  
   It takes a while for it to finish.
 
   Once finished, proceed to the next steps.
 
 #### Clean up resources
 
-  Run this powershell command in the cloud shell to clean up resources.
+  Run this powershell command in the cloud shell to clean up resources: 
+  
+  `Remove-AzResourceGroup -Name "resource-group-name" -Force -AsJob`
 
-  ```markdown
-  Remove-AzResourceGroup -Name "`resource-group-name`" -Force -AsJob
-  ```
 #### [Configure and manage host security](https://docs.microsoft.com/en-us/learn/modules/host-security/)
 
   **Enable endpoint protection** -
