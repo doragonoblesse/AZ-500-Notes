@@ -3,15 +3,12 @@
 ## Useful Links
 
 - [Microsoft Certified: Azure Security Engineer Associate](https://docs.microsoft.com/en-us/learn/certifications/azure-security-engineer/)
-
 - Microsoft Learn Study Labs: [https://microsoftlearning.github.io/AZ500-AzureSecurityTechnologies/](https://microsoftlearning.github.io/AZ500-AzureSecurityTechnologies/)
-
 - ESI Study Guide: [https://aka.ms/ESIStudyGuide_AZ-500](https://aka.ms/ESIStudyGuide_AZ-500)
 
 ### Other Links
 
 - Check on Microsoft Learn latest trophies and badges to see current learning path.
-
   [https://docs.microsoft.com/en-us/users/lucilyntangian-1724/](https://docs.microsoft.com/en-us/users/lucilyntangian-1724/)
 
 ## Notes
@@ -57,34 +54,24 @@ First 2 modules: [AZ500new-notes2.pdf](AZ500new-notes2.pdf)
   **Define a privileged access device strategy includes** -
   
   Hardware root-of-trust
-  
-   - Trusted Platform Module TPM 2.0
-  
-   - BitLocker Drive Encryption
-    
-   - UEFI Secure Boot
-    
-   - Drivers and Firmware Distributed through Windows Update
-    
-   - Virtualization and HVCI Enabled
-    
-   - Drivers and Apps HVCI-Ready
-    
-   - Windows Hello
-    
-   - DMA I/O Protection
-    
-   - System Guard
-    
-   - Modern Standby
+  - Trusted Platform Module TPM 2.0
+  - BitLocker Drive Encryption
+  - UEFI Secure Boot
+  - Drivers and Firmware Distributed through Windows Update
+  - Virtualization and HVCI Enabled
+  - Drivers and Apps HVCI-Ready
+  - Windows Hello
+  - DMA I/O Protection
+  - System Guard
+  - Modern Standby
    
   **Levels of device security** - [see image](https://doragonoblesse.github.io/AZ-500-Notes/levels%20of%20device%20security.jpg)
   
-  <img src="https://doragonoblesse.github.io/AZ-500-Notes/levels%20of%20device%20security.jpg" width="50%" height="50%">
+  <img src="https://doragonoblesse.github.io/AZ-500-Notes/levels%20of%20device%20security.jpg" width="70%" height="70%">
    
   **Device security controls** - [see image](https://doragonoblesse.github.io/AZ-500-Notes/Device security controls.jpg)
   
-  <img src="https://doragonoblesse.github.io/AZ-500-Notes/Device security controls.jpg" width="50%" height="50%">
+  <img src="https://doragonoblesse.github.io/AZ-500-Notes/Device security controls.jpg" width="70%" height="70%">
    
   **Privileged Access Workstations** -
    
@@ -107,20 +94,14 @@ First 2 modules: [AZ500new-notes2.pdf](AZ500new-notes2.pdf)
   Here are some additional terms to know when using Resource Manager:
 
   - Resource provider. A service that supplies Azure resources. For example, a common resource provider is Microsoft.Compute, which supplies the VM resource. Microsoft.Storage is another common resource provider.
-
   - Resource Manager template. A JSON file that defines one or more resources to deploy to a resource group or subscription. You can use the template to consistently and repeatedly deploy the resources.
-
   - Declarative syntax. Syntax that lets you state, "Here’s what I intend to create" without having to write the sequence of programming commands to create it. The Resource Manager template is an example of declarative syntax. In the file, you define the properties for the infrastructure to deploy to Azure.
 
-  !Important: When you deploy a template, Resource Manager converts the template into REST API operations.
+  **!** Important: When you deploy a template, Resource Manager converts the template into REST API operations.
 
 #### Enable and secure remote access management
 
 **Connect to a Windows VM** - by using Remote Desktop Protocol (RDP); If you are using PowerShell and have the Azure PowerShell module installed you may also connect using the `Get-AzRemoteDesktopFile` cmdlet.
 
 **Connect to a Linux-based VM** - To connect the Linux-based VM, you need a secure shell protocol (SSH) client. The most used free tool is PuTTY SHH terminal. The following shows the PuTTY configuration dialog.
-
-  
-
-
 
