@@ -105,3 +105,14 @@ First 2 modules: [AZ500new-notes2.pdf](AZ500new-notes2.pdf)
 
 **Connect to a Linux-based VM** - To connect the Linux-based VM, you need a secure shell protocol (SSH) client. The most used free tool is PuTTY SHH terminal. The following shows the PuTTY configuration dialog.
 
+**Azure Bastion** The Azure Bastion service is a fully platform-managed PaaS service that you provision inside your virtual network. It provides secure and seamless RDP/SSH connectivity to your virtual machines directly in the Azure portal over TLS. When you connect using Azure Bastion, your virtual machines do not need a public IP address.
+
+Bastion provides secure RDP and SSH connectivity to all the VMs in the virtual network in which it is provisioned. Using Azure Bastion protects your virtual machines from exposing RDP/SSH ports to the outside world, while still providing secure access using RDP/SSH. With Azure Bastion, you connect to the virtual machine directly from the Azure portal.
+
+Azure Bastion Architecture - [see image](https://github.com/doragonoblesse/AZ-500-Notes/blob/gh-pages/az-500-bastion.jpg)
+
+<img src="http://az500notes.mumncmd.com/az-500-bastion.jpg" width="70%" height="70%">
+
+
+
+
