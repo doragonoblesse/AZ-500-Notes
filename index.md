@@ -47,11 +47,11 @@ First 2 modules: [AZ500new-notes2.pdf](AZ500new-notes2.pdf)
 
 #### [Configure and manage host security](https://docs.microsoft.com/en-us/learn/modules/host-security/)
 
-  **Enable endpoint protection** -
+  **Enable endpoint protection**
   1. install antimalware; 
   2. integrate your antimalware solution with Azure Security Center to monitor the status of the antimalware protection.
 
-  **Define a privileged access device strategy includes** -
+  **Define a privileged access device strategy includes**
   
   Hardware root-of-trust
   - Trusted Platform Module TPM 2.0
@@ -73,7 +73,7 @@ First 2 modules: [AZ500new-notes2.pdf](AZ500new-notes2.pdf)
   
   <img src="http://az500notes.mumncmd.com/Device%20security%20controls.jpg" width="70%" height="70%">
    
-  **Privileged Access Workstations** -
+  **Privileged Access Workstations**
    
   (PAW) is a hardened and locked down workstation designed to provide high security assurances for sensitive accounts and tasks. PAWs are recommended for administration of identity systems, cloud services, and private cloud fabric as well as sensitive business functions.
    
@@ -81,15 +81,15 @@ First 2 modules: [AZ500new-notes2.pdf](AZ500new-notes2.pdf)
 
   High Sensitivity Information workers - The approach used in a PAW can also provide protection for highly sensitive information worker tasks and personnel such as those involving pre-announcement Merger and Acquisition activity, pre-release financial reports, organizational social media presence, executive communications, unpatented trade secrets, sensitive research, or other proprietary or sensitive data. This guidance does not discuss the configuration of these information worker scenarios in depth or include this scenario in the technical instructions.
    
-  **Jump Box** -
-
+  **Jump Box**
+  
   Administrative "Jump Box" architectures set up a small number administrative console servers and restrict personnel to using them for administrative tasks. This is typically based on remote desktop services, a 3rd-party presentation virtualization solution, or a Virtual Desktop Infrastructure (VDI) technology.
 
   This approach is frequently proposed to mitigate risk to administration and does provide some security assurances, but the jump box approach by itself is vulnerable to certain attacks because it violates the clean source principle. The clean source principle requires all security dependencies to be as trustworthy as the object being secured.
   
 #### Creating Virtual Machine Templates
   
-  **Resource Manager** -
+  **Resource Manager**
   
   Here are some additional terms to know when using Resource Manager:
 
