@@ -110,6 +110,7 @@ First 2 modules: [AZ500new-notes2.pdf](AZ500new-notes2.pdf)
 Bastion provides secure RDP and SSH connectivity to all the VMs in the virtual network in which it is provisioned. Using Azure Bastion protects your virtual machines from exposing RDP/SSH ports to the outside world, while still providing secure access using RDP/SSH. With Azure Bastion, you connect to the virtual machine directly from the Azure portal.
 
 Azure Bastion Architecture - [see image](https://github.com/doragonoblesse/AZ-500-Notes/blob/gh-pages/az-500-bastion.jpg)
+
 <img src="http://az500notes.mumncmd.com/az-500-bastion.jpg" width="70%" height="70%">
 
 
