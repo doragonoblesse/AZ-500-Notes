@@ -113,6 +113,21 @@ Azure Bastion Architecture - [see image](https://github.com/doragonoblesse/AZ-50
 
 <img src="http://az500notes.mumncmd.com/az-500-bastion.jpg" width="70%" height="70%">
 
+### Azure Update Management overview
+
+Computers that Update Management manages use the following configurations to perform assessment and update deployments:
+
+-Microsoft Monitoring Agent (MMA) for Windows or Linux
+
+-Desired State Configuration (DSC) in Windows PowerShell for Linux
+
+-Hybrid Runbook Worker in Azure Automation
+
+**Microsoft Update or Windows Server Update Services (WSUS) for Windows computers**
+
+Azure Automation uses runbooks to install updates. You can't view these runbooks, and they don’t require any configuration. When an update deployment is created, it creates a schedule that starts a master update runbook at the specified time for the included computers. The master runbook starts a child runbook on each agent to install the required updates.
+
+<img src="http://az500notes.mumncmd.com/Azure%20Update%20Management.png" width="70%" height="70%">
 
 
 
