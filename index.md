@@ -117,11 +117,11 @@ Azure Bastion Architecture - [see image](https://github.com/doragonoblesse/AZ-50
 
 Computers that Update Management manages use the following configurations to perform assessment and update deployments:
 
--Microsoft Monitoring Agent (MMA) for Windows or Linux
+- Microsoft Monitoring Agent (MMA) for Windows or Linux
 
--Desired State Configuration (DSC) in Windows PowerShell for Linux
+- Desired State Configuration (DSC) in Windows PowerShell for Linux
 
--Hybrid Runbook Worker in Azure Automation
+- Hybrid Runbook Worker in Azure Automation
 
 **Microsoft Update or Windows Server Update Services (WSUS) for Windows computers**
 
