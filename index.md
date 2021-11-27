@@ -127,5 +127,23 @@ Azure Automation uses runbooks to install updates. You can't view these runbooks
 
 <img src="http://az500notes.mumncmd.com/Azure%20Update%20Management.png" width="70%" height="70%">
 
+### Security Center
 
+Azure Security Center helps you prevent, detect, and respond to threats with increased visibility into and control over the security of your Azure resources. Security Center helps you safeguard VM data in Azure by providing visibility into the security settings of your VMs. When Security Center helps safeguard your VMs, the following capabilities are available:
+
+- OS security settings with the recommended configuration rules
+- System security updates and critical updates that are missing
+- Endpoint protection recommendations
+- Disk encryption validation
+- Vulnerability assessment and remediation
+- Threat detection
+
+Security Center employs advanced security analytics that go far beyond signature-based approaches. Security Center takes advantage of breakthroughs in big data and machine learning technologies to evaluate events across the entire cloud fabric—detecting threats that would be impossible to identify via manual approaches and predicting the evolution of attacks. These security analytics include:
+
+- Integrated threat intelligence. Seeks known malicious hackers by taking advantage of global threat intelligence from Microsoft products and services, the Microsoft Digital Crimes Unit, the Microsoft Security Response Center, and external feeds.
+- Behavioral analytics. Applies known patterns to discover malicious behavior.
+- Anomaly detection. Uses statistical profiling to build a historical baseline. It sends alerts on deviations from established baselines that conform to potential attack vectors.
+
+<img src="http://az500notes.mumncmd.com/hostsec-ck1.jpg" width="70%" height="70%">
+<img src="http://az500notes.mumncmd.com/hostsec-ck2.jpg" width="70%" height="70%">
 
